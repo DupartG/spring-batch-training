@@ -3,7 +3,7 @@ spring:
     name: spring-batch-training
   batch:
     job:
-      enabled: true
+      enabled: false
     jdbc:
       initialize-schema: always
   datasource:
