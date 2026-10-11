@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-batch-training
+  batch:
+    job:
+      enabled: true
+    jdbc:
+      initialize-schema: always
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/batch_schema
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root}
